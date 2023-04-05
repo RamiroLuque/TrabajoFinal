@@ -1,0 +1,33 @@
+.row{
+    padding: 30px;    
+}
+div{
+    background-color: rgb(129, 128, 201);
+    text-align: center;
+}
+/*Etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 20%;
+    
+}
+@media(min-width: 576px){
+    #mifoto{
+        position:absolute;
+        width: 18%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px blue;
+        left: 3%;
+        top: 620px;        
+    }
+}
+@media(max-width: 575px){
+    #mifoto{
+        position:absolute;
+        width: 25%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px blue;
+        left: 2%;
+        top: 650px;        
+    }
+}
