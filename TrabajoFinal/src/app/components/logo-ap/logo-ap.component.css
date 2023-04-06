@@ -1,3 +1,32 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.Redes{
+    margin-right: 3%;
+}
+.btn{
+    BORDER: rgb(8, 8, 8) 3px solid; FONT-SIZE: 15pt; FONT-FAMILY: Verdana; 
+    border-width: medium;
+    
+}
 #logoAp{
     width: 150px;
 }
+img{
+    width: 50px;
+}
+@media(max-width: 575px){.container{
+    flex-direction: column;
+}
+.Redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+}
+
+
