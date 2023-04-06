@@ -4,30 +4,33 @@
 div{
     background-color: rgb(129, 128, 201);
     text-align: center;
+    font-weight: bold;
+    font-size:  14px;
 }
 /*Etiqueta nombre*/
 #nombre{
     font-weight: bold;
-     margin-top: 10%;
+    font-size:  14px;
+    margin-top: 10px;
     
 }
-@media(min-width: 576px){
+@media(min-width: 678px){
     #mifoto{
         position:absolute;
         width: 18%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px gray;
         left: 3%;
-        top: 520px;        
+        top: 421px;;        
     }
 }
-@media(max-width: 575px){
+@media(max-width: 680px){
     #mifoto{
-        position:absolute;
-        width: 25%;
+        
+        width: 33%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px gray;
-        left: 2%;
-        top: 620px;        
+        left: 33%;
+        top: 179px;        
     }
 }
