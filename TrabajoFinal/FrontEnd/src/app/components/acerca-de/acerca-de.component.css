@@ -1,36 +1,35 @@
 .row{
-    padding: 30px;    
+    padding: 20px;    
 }
 div{
     background-color: rgb(129, 128, 201);
     text-align: center;
     font-weight: bold;
-    font-size:  24px;
+    
 }
 /*Etiqueta nombre*/
 #nombre{
     font-weight: bold;
-    font-size:  14px;
     margin-top: 10px;
     
 }
-@media(min-width: 1221px){
+@media(min-width: 576px){
     #mifoto{
         position:absolute;
-        width: 18%;
+        width: 15%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px gray;
         left: 3%;
-        top: 621px;;        
+        top: 450px;       
     }
 }
-@media(max-width: 1220px){
+@media(max-width: 575px){
     #mifoto{
-        
-        width: 33%;
+        position:absolute;
+        width: 30%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px gray;
         left: 33%;
-        top: 179px;        
+        top: 220px;        
     }
 }
